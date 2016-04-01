@@ -250,3 +250,16 @@ CREATE TABLE `tabDefaultValue` (
   KEY `parent` (`parent`),
   KEY `defaultvalue_parent_defkey_index` (`parent`,`defkey`)
 ) ENGINE=InnoDB ROW_FORMAT=COMPRESSED CHARACTER SET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+
+--
+-- Table structure for table `tabGroup`
+--
+
+DROP TABLE IF EXISTS `tabGroup`;
+CREATE TABLE `tabGroup` (
+  `name` varchar(255) NOT NULL,
+  `description` varchar(255) NOT NULL, 
+  `modified` datetime(6) DEFAULT NULL,
+  `modified_by` varchar(255) DEFAULT NULL,
+) ENGINE=InnoDB ROW_FORMAT=COMPRESSED CHARACTER SET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
