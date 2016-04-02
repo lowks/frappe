@@ -1,0 +1,10 @@
+[
+ {
+  "doctype": "Group", 
+  "role_name": "_Test Group"
+ }, 
+ {
+  "doctype": "Group", 
+  "role_name": "_Test Group 2"
+ }
+]
