@@ -524,7 +524,7 @@ def get_doc(arg1, arg2=None):
 
 		# insert a new document
 		todo = frappe.get_doc({"doctype":"ToDo", "description": "test"})
-		tood.insert()
+		todo.insert()
 
 		# open an existing document
 		todo = frappe.get_doc("ToDo", "TD0001")
